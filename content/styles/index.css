@@ -79,3 +79,29 @@ header {
         font-size: 35px;
         color: #444;
     }
+    
+    #overview .courses-container {
+        display: flex;
+        width: 850px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+        #overview .courses-container article {
+            color: #8d8d8d;
+        }
+            #overview .courses-container .webdev { text-align: right; margin-right: 10px; }
+                #overview .courses-container .webdev h1,
+                #overview .courses-container .webdev h2 { color: #466c95; }
+            #overview .courses-container .leadership { text-align: left; margin-left: 10px; }
+                #overview .courses-container .leadership h1,
+                #overview .courses-container .leadership h2 { color: #ff7676; }
+                
+            #overview .courses-container article h1 {
+                font-size: 25px;
+                margin-bottom: 5px;
+            }
+            #overview .courses-container article h2 {
+                font-size: 18px;
+                font-weight: 400;
+                margin-top: 0;
+            }
