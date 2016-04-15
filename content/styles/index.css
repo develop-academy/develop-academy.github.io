@@ -133,6 +133,7 @@ header {
         font-size: 25px;
         padding-top: 25px;
         color: #5dae8b;
+        margin-top: 0;
     }
     #pricing > h2 {
         font-size: 30px;
