@@ -19,18 +19,22 @@ a {
         margin-top: 15px;
         transition: all 0.1s linear;
     }
-        #hero a.button {
+        #hero a.button,
+        #pricing .both a.button {
             background-color: #fff;
             color: #5dae8b;
         }
-            #hero a.button:hover {
+            #hero a.button:hover,
+            #pricing .both a.button:hover {
                 background-color: #E3F1EB;
             }
-        #overview a.button {
+        #overview a.button,
+        #pricing a.button {
             background-color: #5dae8b;
             color: #fff;
         }
-            #overview a.button:hover {
+            #overview a.button:hover,
+            #pricing a.button:hover {
                 background-color: #73C19F;
             }
 
@@ -119,3 +123,84 @@ header {
                 font-weight: 400;
                 margin-top: 0;
             }
+            
+#pricing {
+    background-color: #f1f1f1;
+    color: #444444;
+}
+    #pricing > h1:first-child {
+        font-weight: 600;
+        font-size: 25px;
+        padding-top: 25px;
+        color: #5dae8b;
+    }
+    #pricing > h2 {
+        font-size: 30px;
+        color: #444;
+    }
+    
+    #pricing .pricing-container {
+        display: flex;
+        width: 950px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+        #pricing .pricing-container .bubble {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 15px;
+        }
+            #pricing .pricing-container .web-dev.bubble { background-color: #466c95; }
+            #pricing .pricing-container .leadership.bubble { background-color: #ff7676; }
+            #pricing .pricing-container .bubble+.bubble { margin-left: 5px; }
+            
+        #pricing .pricing-container article {
+            border: 2px solid #5dae8b;
+            border-radius: 5px;
+            width: 275px;
+            margin-top: 15px;
+        }
+            #pricing .pricing-container h1 {
+                font-size: 20px;
+                margin: 15px auto;
+            }
+            #pricing .pricing-container .pricing {
+                border-top: 1px solid #5dae8b;
+                border-bottom: 1px solid #5dae8b;
+                width: 85%;
+                margin: 0 auto;
+            }
+                #pricing .pricing-container .pricing h2 {
+                    font-size: 50px;
+                    font-weight: 400;
+                    margin: 15px auto 5px;
+                }
+                    #pricing .pricing h2 .per {
+                        font-size: 18px;
+                        font-weight: 300;
+                    }
+                #pricing .pricing h3 {
+                    font-weight: 400;
+                    margin: 0 auto 15px;
+                }
+                #pricing .both {
+                    background-color: #5dae8b;
+                    color: #fff;
+                }
+                    #pricing .both .pricing {
+                        border-color: #fff;
+                    }
+                #pricing ul {
+                    list-style-type: none;
+                    margin-bottom: 0;
+                    padding: 0;
+                }
+                    #pricing li {
+                        margin: 0;
+                        padding: 0;
+                    }
+        #pricing article a.button {
+            padding: 15px 40px;
+            border-radius: 30px;
+        }
