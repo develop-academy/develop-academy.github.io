@@ -13,13 +13,26 @@ a {
 }
     a.button {
         text-decoration: none;
-        background-color: #fff;
-        color: #5dae8b;
         padding: 15px 20px;
         border-radius: 3px;
         display: inline-block;
         margin-top: 15px;
+        transition: all 0.1s linear;
     }
+        #hero a.button {
+            background-color: #fff;
+            color: #5dae8b;
+        }
+            #hero a.button:hover {
+                background-color: #EEE;
+            }
+        #overview a.button {
+            background-color: #5dae8b;
+            color: #fff;
+        }
+            #overview a.button:hover {
+                background-color: #5dae8b;
+            }
 
 header {
     width: 100%;
@@ -72,11 +85,11 @@ header {
 }
     #overview > h1:first-child {
         font-weight: 600;
-        font-size: 20px;
+        font-size: 25px;
         padding-top: 25px;
     }
     #overview > h2 {
-        font-size: 35px;
+        font-size: 30px;
         color: #444;
     }
     
