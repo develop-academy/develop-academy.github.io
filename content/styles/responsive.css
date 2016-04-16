@@ -1,0 +1,63 @@
+@media all and (max-width: 1015px) {
+    #pricing .pricing-container {
+        width: 98%;
+    }
+        #pricing .pricing-container article {
+            width: 225px;
+        }
+}
+
+@media all and (max-width: 870px) {
+    #overview .courses-container {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 800px) {
+    #pricing .pricing-container {
+        display: block;
+    }
+        #pricing .pricing-container > div + div {
+            margin-top: 35px;
+        }
+        #pricing .pricing-container article {
+            margin: 15px auto 0;
+            width: 50%;
+            min-width: 250px;
+        }
+}
+
+@media all and (max-width: 775px) {
+    header {
+        height: auto;
+        line-height: 50px;
+    }
+        header img {
+            position: static;
+            height: auto;
+            width: 85%;
+            max-width: 350px;
+        }
+        header ul {
+            position: static;
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+        }
+            header ul li {
+                height: auto;
+            }
+}
+
+@media all and (max-width: 550px) {
+    #overview .courses-container {
+        width: 90%;
+        display: block;
+    }
+        #overview .courses-container article {
+            width: 100%;
+            text-align: center !important;
+            border: none !important;
+            padding: 0 !important;
+        }
+}
