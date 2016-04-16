@@ -18,6 +18,8 @@ a {
         display: inline-block;
         margin-top: 15px;
         transition: all 0.1s linear;
+        font-size: 16px;
+        letter-spacing: 3px;
     }
         #hero a.button,
         #pricing .both a.button {
@@ -37,6 +39,16 @@ a {
             #pricing a.button:hover {
                 background-color: #73C19F;
             }
+
+body > section {
+    padding: 25px 0 50px;
+}
+    body > section > h1.title:first-child {
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 0;
+        letter-spacing: 5px;
+    }
 
 header {
     width: 100%;
@@ -69,29 +81,26 @@ header {
             }
  
 #hero {
-    margin-top: 75px;
-}           
+    margin-top: 25px;
+}
     #hero h1 {
         font-size: 35px;
         font-weight: 400;
     }
     #hero h2 {
         font-style: italic;
+        font-size: 23px;
         font-weight: 300;
     }
     #hero p {
         margin-top: 50px;
+        font-size: 20px;
     }
     
 #overview {
     background-color: #fff;
     color: #5dae8b;
 }
-    #overview > h1:first-child {
-        font-weight: 600;
-        font-size: 25px;
-        padding-top: 25px;
-    }
     #overview > h2 {
         font-size: 30px;
         color: #444;
@@ -129,11 +138,7 @@ header {
     color: #444444;
 }
     #pricing > h1:first-child {
-        font-weight: 600;
-        font-size: 25px;
-        padding-top: 25px;
         color: #5dae8b;
-        margin-top: 0;
     }
     #pricing > h2 {
         font-size: 30px;
@@ -161,10 +166,12 @@ header {
             border-radius: 5px;
             width: 275px;
             margin-top: 15px;
+            padding: 20px 10px;
         }
             #pricing .pricing-container h1 {
                 font-size: 20px;
                 margin: 15px auto;
+                letter-spacing: 5px;
             }
             #pricing .pricing-container .pricing {
                 border-top: 1px solid #5dae8b;
@@ -204,4 +211,5 @@ header {
         #pricing article a.button {
             padding: 15px 40px;
             border-radius: 30px;
+            letter-spacing: 5px;
         }
