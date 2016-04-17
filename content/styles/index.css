@@ -235,3 +235,31 @@ header img {
                 margin: 0;
                 padding: 0;
             }
+
+#speakers {
+    background-color: #f1f1f1;
+    color: #444444;
+}
+    #speakers > h1.title {
+        color: #5dae8b;
+    }
+    #speakers > p {
+        width: 950px;
+        margin: 0 auto;
+    }
+    #speakers ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 50px auto 0;
+    }
+        #speakers ul li {
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+        }
+            #speakers ul li + li {
+                margin-left: 50px;
+            }
+            #speakers ul li img {
+                height: 125px;
+            }
