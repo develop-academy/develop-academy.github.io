@@ -27,11 +27,10 @@
         }
 }
 
-@media all and (max-width: 775px) {
+@media all and (max-width: 525px) {
     header img {
         height: auto;
         width: 85%;
-        max-width: 350px;
     }
 }
 
