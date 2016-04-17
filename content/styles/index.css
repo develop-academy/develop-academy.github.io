@@ -26,7 +26,8 @@ a {
             opacity: 0.8;
         }
         #hero a.button,
-        #pricing .both a.button {
+        #pricing .both a.button,
+        footer a.button {
             background-color: #fff;
             color: #5dae8b;
         }
@@ -263,3 +264,25 @@ header img {
             #speakers ul li img {
                 height: 125px;
             }
+
+footer {
+    padding: 40px 0;
+}
+    footer a.button {
+        padding: 20px 50px;
+    }
+    footer .contact-info {
+        margin: 50px auto 40px;
+        font-size: 20px;
+    }
+        footer .contact-info a {
+            text-decoration: none;
+            border-bottom: 1px dotted #fff;
+            color: #fff;
+        }
+            footer .contact-info a:hover {
+                border-bottom: 1px solid #fff;
+            }
+    footer img {
+        width: 350px;
+    }
