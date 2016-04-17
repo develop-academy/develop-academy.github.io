@@ -21,24 +21,19 @@ a {
         font-size: 16px;
         letter-spacing: 3px;
     }
+        a.button:hover {
+            opacity: 0.8;
+        }
         #hero a.button,
         #pricing .both a.button {
             background-color: #fff;
             color: #5dae8b;
         }
-            #hero a.button:hover,
-            #pricing .both a.button:hover {
-                background-color: #E3F1EB;
-            }
         #overview a.button,
         #pricing a.button {
             background-color: #5dae8b;
             color: #fff;
         }
-            #overview a.button:hover,
-            #pricing a.button:hover {
-                background-color: #73C19F;
-            }
 
 body > section {
     padding: 25px 0 50px;
