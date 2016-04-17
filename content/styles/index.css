@@ -206,13 +206,15 @@ header img {
     }
 
     #about-us > p {
-        width: 950px;
+        width: 95%;
+        max-width: 950px;
         margin: 0 auto;
     }
 
     #about-us .bio-container {
         display: flex;
-        width: 850px;
+        width: 90%;
+        max-width: 850px;
         margin: 25px auto 0;
         justify-content: space-between;
     }
@@ -245,7 +247,8 @@ header img {
         color: #5dae8b;
     }
     #speakers > p {
-        width: 950px;
+        width: 95%;
+        max-width: 950px;
         margin: 0 auto;
     }
     #speakers ul {

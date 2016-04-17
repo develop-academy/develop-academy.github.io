@@ -11,6 +11,12 @@
     #overview .courses-container {
         width: 90%;
     }
+    #about-us .bio-container {
+        display: block;
+    }
+        #about-us .bio-container article {
+            margin: 50px auto;
+        }
 }
 
 @media all and (max-width: 800px) {
@@ -54,5 +60,25 @@
             text-align: center !important;
             border: none !important;
             padding: 0 !important;
+        }
+}
+
+@media all and (max-width: 430px) {
+    footer a.button {
+        padding: 20px 0;
+        width: 95%;
+    }
+    footer img {
+        width: 95%;
+    }
+}
+
+@media all and (max-width: 365px) {
+    #speakers ul li {
+        display: block;
+        margin: 0 auto;
+    }
+        #speakers ul li + li {
+            margin: 50px auto 0;
         }
 }
