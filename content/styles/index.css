@@ -109,7 +109,7 @@ header img {
                 font-weight: 400;
                 margin-top: 0;
             }
-            
+
 #pricing {
     background-color: #f1f1f1;
     color: #444444;
@@ -190,3 +190,48 @@ header img {
             border-radius: 30px;
             letter-spacing: 5px;
         }
+
+#about-us {
+    background-color: #fff;
+    color: #444444;
+}
+    #about-us > h1:first-child {
+        color: #5dae8b;
+    }
+
+    #about-us > h2 {
+        font-size: 30px;
+        color: #444;
+    }
+
+    #about-us > p {
+        width: 950px;
+        margin: 0 auto;
+    }
+
+    #about-us .bio-container {
+        display: flex;
+        width: 850px;
+        margin: 25px auto 0;
+        justify-content: space-between;
+    }
+        #about-us .bio-container article {
+            width: 250px;
+        }
+            #about-us .bio-container article img {
+                display: block;
+                margin: 0 auto;
+                font-size: 0;
+                background-color: #3984ff;
+                width: 200px;
+                height: 200px;
+                border-radius: 100px;
+            }
+            #about-us .bio-container article h1 {
+                font-size: 23px;
+            }
+            #about-us .bio-container article ul {
+                list-style-type: '+ ';
+                margin: 0;
+                padding: 0;
+            }
