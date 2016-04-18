@@ -27,7 +27,7 @@ a {
         }
         #hero a.button,
         #pricing .both a.button,
-        footer a.button {
+        #register a.button {
             background-color: #fff;
             color: #5dae8b;
         }
@@ -268,24 +268,33 @@ header img {
                 height: 125px;
             }
 
-footer {
-    padding: 40px 0;
+#register {
+    padding: 50px 0;
 }
-    footer a.button {
+    #register a.button {
         padding: 20px 50px;
+        margin: 0 auto;
     }
-    footer .contact-info {
-        margin: 50px auto 40px;
-        font-size: 20px;
-    }
-        footer .contact-info a {
-            text-decoration: none;
-            border-bottom: 1px dotted #fff;
-            color: #fff;
-        }
-            footer .contact-info a:hover {
-                border-bottom: 1px solid #fff;
-            }
+
+footer {
+    padding: 175px 0;
+    font-size: 25px;
+    background-image: url('../images/maw-fbla.jpg');
+    background-size: 100%;
+    background-position: 0 -160px;
+    background-position-y: -160px;
+}
     footer img {
-        width: 350px;
+        width: 450px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        display: block;
     }
+    footer a {
+        text-decoration: none;
+        border-bottom: 1px dotted #fff;
+        color: #fff;
+    }
+        footer a:hover {
+            border-bottom: 1px solid #fff;
+        }
