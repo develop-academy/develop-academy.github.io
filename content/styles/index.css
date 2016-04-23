@@ -33,13 +33,12 @@ a {
             border: none;
         }
         #hero a.button,
-        #pricing .both a.button,
-        #register a.button {
+        #register a.button,
+        #pricing .session a.button {
             background-color: #fff;
             color: #5dae8b;
         }
-        #overview a.button,
-        #pricing a.button {
+        #overview a.button {
             background-color: #5dae8b;
             color: #fff;
         }
@@ -147,74 +146,73 @@ header img {
         color: #444;
     }
     
-    #pricing .pricing-container {
-        display: flex;
-        width: 950px;
-        margin: 0 auto;
-        justify-content: space-between;
+    #pricing .price h1 {
+        font-size: 90px;
+        font-weight: 300;
+        margin: -15px auto 0;
     }
-        #pricing .pricing-container .bubble {
-            display: inline-block;
-            width: 15px;
-            height: 15px;
-            border-radius: 15px;
+        #pricing .price h1 .per-hour {
+            font-size: 33px;
         }
-            #pricing .pricing-container .web-dev.bubble { background-color: #466c95; }
-            #pricing .pricing-container .leadership.bubble { background-color: #ff7676; }
-            #pricing .pricing-container .bubble+.bubble { margin-left: 5px; }
-            
-        #pricing .pricing-container article {
-            border: 2px solid #5dae8b;
-            border-radius: 5px;
-            width: 275px;
-            margin-top: 15px;
-            padding: 20px 10px;
+    #pricing .price h2 {
+        font-size: 25px;
+        font-weight: 300;
+        margin: -10px auto 10px;
+    }
+
+    #pricing h3 {
+        color: #5dae8b;
+        font-size: 23px;
+        font-weight: 400;
+    }
+    
+    #pricing .session {
+        width: 600px;
+        height: 75px;
+        border-radius: 10px;
+        background-color: #5dae8b;
+        color: #fff;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+    }
+        #pricing .session + .session {
+            margin-top: 25px;
         }
-            #pricing .pricing-container h1 {
-                font-size: 20px;
-                margin: 15px auto;
-                letter-spacing: 5px;
-            }
-            #pricing .pricing-container .pricing {
-                border-top: 1px solid #5dae8b;
-                border-bottom: 1px solid #5dae8b;
-                width: 85%;
-                margin: 0 auto;
-            }
-                #pricing .pricing-container .pricing h2 {
-                    font-size: 50px;
-                    font-weight: 400;
-                    margin: 15px auto 5px;
-                }
-                    #pricing .pricing h2 .per {
-                        font-size: 18px;
-                        font-weight: 300;
-                    }
-                #pricing .pricing h3 {
-                    font-weight: 400;
-                    margin: 0 auto 15px;
-                }
-                #pricing .both {
-                    background-color: #5dae8b;
-                    color: #fff;
-                }
-                    #pricing .both .pricing {
-                        border-color: #fff;
-                    }
-                #pricing ul {
-                    list-style-type: none;
-                    margin-bottom: 0;
-                    padding: 0;
-                    height: 120px;
-                }
-                    #pricing li {
-                        margin: 0;
-                        padding: 0;
-                    }
-        #pricing article a.button {
-            padding: 15px 40px;
-            border-radius: 30px;
-            letter-spacing: 5px;
+        #pricing .session .session-number {
+            background-color: #fff;
+            color: #5dae8b;
+            position: absolute;
+            left: -1px;
+            top: 0;
+            height: 100%;
+            width: 100px;
+            line-height: 75px;
+            font-size: 25px;
+            border-radius: inherit;
+        }
+        #pricing .session .details {
+            width: calc(100% - 100px);
+            position: absolute;
+            left: 90px;
+            height: 100%;
+            z-index: 100;
+            background-color: inherit;
+            text-align: left;
+            padding-left: 10px;
+            padding-top: 14px;
+            line-height: 25px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        #pricing .session a.button {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            z-index: 500;
+            margin: 0;
+            padding: 10px 25px;
+            font-size: 16px;
         }
 
 #about-us {
