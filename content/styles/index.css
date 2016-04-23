@@ -38,7 +38,8 @@ a {
             background-color: #fff;
             color: #5dae8b;
         }
-        #overview a.button {
+        #overview a.button,
+        #pricing a.button {
             background-color: #5dae8b;
             color: #fff;
         }
@@ -214,6 +215,10 @@ header img {
             padding: 10px 25px;
             font-size: 16px;
         }
+
+    #pricing > a.button:last-child {
+        display: none;
+    }
 
 #about-us {
     background-color: #fff;
