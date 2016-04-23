@@ -1,3 +1,12 @@
+@media all and (max-width: 1025px) {
+    #overview .courses-container {
+        width: 95%;
+    }
+        #overview .courses-container article {
+            width: 30%;
+        }
+}
+
 @media all and (max-width: 1015px) {
     #pricing .pricing-container {
         width: 98%;
@@ -16,6 +25,16 @@
     }
         #about-us .bio-container article {
             margin: 50px auto;
+        }
+
+    #overview .courses-container {
+        display: block;
+    }
+        #overview .courses-container article {
+            width: 100%;
+            height: auto;
+            margin-top: 50px;
+            padding: 100px 0 25px;
         }
 }
 
@@ -48,19 +67,6 @@
         height: auto;
         width: 85%;
     }
-}
-
-@media all and (max-width: 550px) {
-    #overview .courses-container {
-        width: 90%;
-        display: block;
-    }
-        #overview .courses-container article {
-            width: 100%;
-            text-align: center !important;
-            border: none !important;
-            padding: 0 !important;
-        }
 }
 
 @media all and (max-width: 430px) {

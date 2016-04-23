@@ -100,8 +100,7 @@ header img {
         #overview .courses-container article {
             background-color: #f1f1f1;
             color: #343434;
-            width: 250px;
-            padding: 0 25px;
+            width: 300px;
             height: 325px;
             margin-top: 75px; /* Spacing for the .icon-containers */
             border-radius: 5px;
@@ -126,6 +125,10 @@ header img {
             #overview .courses-container article ul {
                 list-style-type: '+ ';
                 padding: 0;
+            }
+            #overview .courses-container article p {
+                width: 90%;
+                margin: 0 auto;
             }
 
     #overview a.button {
