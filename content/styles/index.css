@@ -93,31 +93,40 @@ header img {
     
     #overview .courses-container {
         display: flex;
-        width: 850px;
+        width: 1000px;
         margin: 0 auto;
         justify-content: space-between;
     }
         #overview .courses-container article {
-            color: #8d8d8d;
+            background-color: #f1f1f1;
+            color: #343434;
+            width: 250px;
+            padding: 0 25px;
+            height: 325px;
+            margin-top: 75px; /* Spacing for the .icon-containers */
+            border-radius: 5px;
         }
-            #overview .courses-container .webdev { text-align: right; padding-right: 15px; border-right: 1px solid #e2e2e2; }
-                #overview .courses-container .webdev h1,
-                #overview .courses-container .webdev h2 { color: #466c95; }
-            #overview .courses-container .leadership { text-align: left; padding-left: 15px; border-left: 1px solid #e2e2e2; }
-                #overview .courses-container .leadership h1,
-                #overview .courses-container .leadership h2 { color: #ff7676; }
-                
+            #overview .courses-container .icon-container {
+                background-color: #5dae8b;
+                width: 150px;
+                height: 150px;
+                border-radius: 75px;
+                margin: -75px auto 0;
+            }
+                #overview .courses-container img {
+                    height: 85px;
+                    margin-top: 32.5px;
+                }
             #overview .courses-container article h1 {
                 font-size: 25px;
                 margin-bottom: 5px;
                 margin-top: 5px;
             }
-            #overview .courses-container article h2 {
-                font-size: 18px;
-                font-weight: 400;
-                margin-top: 0;
+            #overview .courses-container article ul {
+                list-style-type: '+ ';
+                padding: 0;
             }
-            
+
     #overview a.button {
         letter-spacing: 5px;
     }
