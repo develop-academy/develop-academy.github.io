@@ -120,7 +120,8 @@ header img {
             #overview .courses-container article h1 {
                 font-size: 25px;
                 margin-bottom: 5px;
-                margin-top: 5px;
+                margin-top: 15px;
+                letter-spacing: 5px;
             }
             #overview .courses-container article ul {
                 list-style-type: '+ ';
