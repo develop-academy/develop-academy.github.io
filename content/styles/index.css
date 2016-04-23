@@ -125,10 +125,11 @@ header img {
             #overview .courses-container article ul {
                 list-style-type: '+ ';
                 padding: 0;
+                margin-top: 15px;
             }
             #overview .courses-container article p {
                 width: 90%;
-                margin: 0 auto;
+                margin: 15px auto;
             }
 
     #overview a.button {
