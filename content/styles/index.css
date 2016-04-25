@@ -242,12 +242,12 @@ header img {
     #about-us .bio-container {
         display: flex;
         width: 90%;
-        max-width: 850px;
+        max-width: 1000px;
         margin: 25px auto 0;
         justify-content: space-between;
     }
         #about-us .bio-container article {
-            width: 250px;
+            width: 300px;
         }
             #about-us .bio-container article img {
                 display: block;
