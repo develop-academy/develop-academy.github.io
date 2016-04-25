@@ -101,7 +101,7 @@ header img {
             background-color: #f1f1f1;
             color: #343434;
             width: 300px;
-            height: 325px;
+            height: 300px;
             margin-top: 75px; /* Spacing for the .icon-containers */
             border-radius: 5px;
         }
@@ -134,6 +134,7 @@ header img {
 
     #overview a.button {
         letter-spacing: 5px;
+        margin-top: 25px;
     }
 
 #pricing {
