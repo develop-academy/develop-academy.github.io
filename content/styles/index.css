@@ -44,6 +44,15 @@ a {
             color: #fff;
         }
 
+#overview ul li,
+#about-us ul li {
+    list-style-type: none !important;
+}
+    #overview ul li::before,
+    #about-us ul li::before {
+        content: '+ ';
+    }
+
 body > section {
     padding: 25px 0 50px;
 }
@@ -123,7 +132,6 @@ header img {
                 letter-spacing: 5px;
             }
             #overview .courses-container article ul {
-                list-style-type: '+ ';
                 padding: 0;
                 margin-top: 15px;
             }
