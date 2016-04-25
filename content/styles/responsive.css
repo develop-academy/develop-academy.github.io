@@ -1,9 +1,9 @@
-@media all and (max-width: 1025px) {
-    #overview .courses-container {
-        width: 95%;
+@media all and (max-width: 1015px) {
+    #pricing .pricing-container {
+        width: 98%;
     }
-        #overview .courses-container article {
-            width: 30%;
+        #pricing .pricing-container article {
+            width: 225px;
         }
 }
 
@@ -17,19 +17,21 @@
         #about-us .bio-container article {
             margin: 50px auto;
         }
-
-    #overview .courses-container {
-        display: block;
-    }
-        #overview .courses-container article {
-            width: 100%;
-            height: auto;
-            margin-top: 50px;
-            padding: 100px 0 25px;
-        }
 }
 
 @media all and (max-width: 800px) {
+    #pricing .pricing-container {
+        display: block;
+    }
+        #pricing .pricing-container > div + div {
+            margin-top: 35px;
+        }
+        #pricing .pricing-container article {
+            margin: 15px auto 0;
+            width: 50%;
+            min-width: 250px;
+        }
+
     #hero h1 {
         font-size: 33px;
     }
@@ -41,27 +43,17 @@
     }
 }
 
-@media all and (max-width: 650px) {
-    #pricing .session {
-        width: 95%;
-    }
-        #pricing .session .session-number {
-            width: 75px;
-        }
-        #pricing .session .details {
-            font-size: 16px;
-            left: 65px;
-            width: calc(100% - 70px);
-        }
-        #pricing .session a.button {
-            display: none;
-        }
-    #pricing > a.button:last-child {
+@media all and (max-width: 550px) {
+    #overview .courses-container {
+        width: 90%;
         display: block;
-        box-sizing: border-box;
-        width: 95%;
-        margin: 25px auto 0;
     }
+        #overview .courses-container article {
+            width: 100%;
+            text-align: center !important;
+            border: none !important;
+            padding: 0 !important;
+        }
 }
 
 @media all and (max-width: 525px) {
@@ -88,17 +80,5 @@
     }
         #speakers ul li + li {
             margin: 50px auto 0;
-        }
-}
-
-@media all and (max-width: 350px) {
-        #pricing .session .session-number {
-            width: 50px;
-            font-size: 20px;
-        }
-        #pricing .session .details {
-            font-size: 15px;
-            left: 40px;
-            width: calc(100% - 50px);
         }
 }
