@@ -1,3 +1,11 @@
+@media all and (max-width: 1050px) {
+    footer {
+        background-size: 100% 100%;
+        background-position: center;
+        background-position-y: 0;
+    }
+}
+
 @media all and (max-width: 1015px) {
     #pricing .pricing-container {
         width: 98%;
@@ -43,6 +51,12 @@
     }
 }
 
+@media all and (max-width: 600px) {
+    footer {
+        padding: 50px 0;
+    }
+}
+
 @media all and (max-width: 550px) {
     #overview .courses-container {
         width: 90%;
@@ -63,13 +77,12 @@
     }
 }
 
-@media all and (max-width: 430px) {
-    footer a.button {
-        padding: 20px 0;
-        width: 95%;
-    }
+@media all and (max-width: 475px) {
     footer img {
-        width: 95%;
+        width: 85%;
+    }
+    footer {
+        font-size: 18px;
     }
 }
 
@@ -81,4 +94,10 @@
         #speakers ul li + li {
             margin: 50px auto 0;
         }
+}
+
+@media all and (max-width: 325px) {
+    footer {
+        background-size: auto 100%;
+    }
 }

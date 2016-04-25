@@ -311,6 +311,8 @@ footer {
     background-size: 100%;
     background-position: 0 -160px;
     background-position-y: -160px;
+    background-repeat: no-repeat;
+    background-color: #635F5E;
 }
     footer img {
         width: 450px;
