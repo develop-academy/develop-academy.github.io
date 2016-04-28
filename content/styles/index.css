@@ -110,6 +110,8 @@ header img {
     }
         #overview .courses-container article {
             color: #8d8d8d;
+            box-sizing: border-box;
+            width: 425px;
         }
             #overview .courses-container .webdev { text-align: right; padding-right: 15px; border-right: 1px solid #e2e2e2; }
                 #overview .courses-container .webdev h1,
