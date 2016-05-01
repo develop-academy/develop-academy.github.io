@@ -15,6 +15,12 @@
         }
 }
 
+@media all and (max-width: 900px) {
+    #hero .sessions li + li {
+        margin: 0 auto;
+    }
+}
+
 @media all and (max-width: 870px) {
     #overview .courses-container {
         width: 90%;
@@ -86,6 +92,18 @@
     }
 }
 
+@media all and (max-width: 430px) {
+    #hero .sessions li {
+        width: 98%;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+        #hero .sessions li h1 {
+            padding: 0 5px;
+            margin-right: 3px;
+        }
+}
+
 @media all and (max-width: 365px) {
     #speakers ul li {
         display: block;
@@ -94,6 +112,12 @@
         #speakers ul li + li {
             margin: 50px auto 0;
         }
+}
+
+@media all and (max-width: 350px) {
+    #hero .sessions li .time {
+        display: none;
+    }
 }
 
 @media all and (max-width: 325px) {

@@ -91,7 +91,41 @@ header img {
         max-width: 1000px;
         margin: 25px auto;
     }
-    
+
+    #hero .sessions {
+        margin: 0;
+        padding: 0;
+        color: #5dae8b;
+    }
+        #hero .sessions li + li {
+            margin-left: 15px;
+        }
+        #hero .sessions li {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+            box-sizing: border-box;
+            width: 400px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            background-color: #fff;
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: left;
+        }
+            #hero .sessions li h1 {
+                font: inherit;
+                margin: 0;
+                display: inline-block;
+                background-color: #f1f1f1;
+                padding: 0 15px;
+                height: 50px;
+                margin-right: 5px;
+            }
+
 #overview {
     background-color: #fff;
     color: #5dae8b;
@@ -251,6 +285,7 @@ header img {
     }
         #about-us .bio-container article {
             width: 300px;
+            max-width: 99%;
         }
             #about-us .bio-container article img {
                 display: block;
