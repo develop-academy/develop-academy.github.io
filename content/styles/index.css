@@ -102,20 +102,22 @@ header img {
         }
         #hero .sessions li {
             list-style-type: none;
-            margin: 0;
-            padding: 0;
             display: inline-block;
-            box-sizing: border-box;
-            width: 400px;
-            height: 50px;
-            line-height: 50px;
-            font-size: 18px;
-            font-weight: 600;
-            background-color: #fff;
-            border-radius: 5px;
-            overflow: hidden;
-            text-align: left;
         }
+            #hero .sessions li .description {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                width: 400px;
+                height: 50px;
+                line-height: 50px;
+                font-size: 18px;
+                font-weight: 600;
+                background-color: #fff;
+                border-radius: 5px;
+                overflow: hidden;
+                text-align: left;
+            }
             #hero .sessions li h1 {
                 font: inherit;
                 margin: 0;
@@ -124,6 +126,11 @@ header img {
                 padding: 0 15px;
                 height: 50px;
                 margin-right: 5px;
+            }
+            #hero .sessions li .spots-left {
+                color: #fff;
+                font-size: 18px;
+                margin-top: 15px;
             }
 
 #overview {
