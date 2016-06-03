@@ -73,6 +73,9 @@ header img {
     width: 95%;
     margin: 0 auto;
 }
+    #hero a {
+        color: #fff;
+    }
     #hero h1, #hero h2, #hero p {
         text-shadow: 3px 3px 3px rgba(0,0,0,0.1);
     }
