@@ -32,6 +32,11 @@ a {
             opacity: 0.8;
             border: none;
         }
+        
+        #no-space {
+            letter-spacing:0px !important;
+        }
+        
         #hero a.button,
         #pricing .both a.button,
         #register a.button {
